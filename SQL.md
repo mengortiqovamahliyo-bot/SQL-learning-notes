@@ -9,14 +9,14 @@ If you want to choose multiple columns from the database, you can use SELECT lik
 SELECT column_name, another_column_name
 FROM table_name
 ```
-## WHERE
+# WHERE
 In SQL, you can extract data according to certain demands by giving conditions using WHERE:
 ```sql
 SELECT column_name
 FROM table_name
 WHERE condition --column_name > 2
 ```
-Conditions are written using operators below:
+### Conditions are written using operators below:
 ```
 = --> if it is equal to smth
 != --> if it is not equal to smth
