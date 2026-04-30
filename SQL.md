@@ -1,6 +1,4 @@
 ## SELECT
-
-
 SELECT --> mainly used to select a specific part of the database, like a column name or a row
 
  ```sql
@@ -12,5 +10,28 @@ SELECT column_name, another_column_name
 FROM table_name
 ```
 ## WHERE
+In SQL, you can extract data according to certain demands by giving conditions using WHERE:
+```sql
+--Operator	Condition	SQL Example
+=, !=, <, <=, >, >=	Standard numerical operators	col_name != 4
+BETWEEN … AND …	Number is within range of two values (inclusive)	col_name BETWEEN 1.5 AND 10.5
+NOT BETWEEN … AND …	Number is not within range of two values (inclusive)	col_name NOT BETWEEN 1 AND 10
+IN (…)	Number exists in a list	col_name IN (2, 4, 6)
+NOT IN (…)	Number does not exist in a list	col_name NOT IN (1, 3, 5)
+SELECT column_name
+FROM table_name
+WHERE condition --column_name > 2
+```
+Conditions are written using operators below:
+```
+= --> if it is equal to smth
+!= --> if it is not equal to smth
+< --> if it is less than smth
+> --> if it is more than smth
+<= --> if it is less than or equal to
+>= --> if it is more than or equal to
+BETWEEN ... AND ... --> if it is between them(column_name BETWEEN num 1 AND num 2 )
+NOT BETWEEN ... AND ... --> if it is not between them
+`IN()` checks whether a value exists in a list.
 
 
