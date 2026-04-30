@@ -11,4 +11,6 @@ If you want to choose multiple columns from the database, you can use SELECT lik
 SELECT column_name, another_column_name
 FROM table_name
 ```
+## WHERE
+
 
