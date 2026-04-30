@@ -1,4 +1,4 @@
-## SELECT
+# SELECT
 SELECT -- mainly used to select a specific part of the database, like a column name or a row
 
  ```sql
