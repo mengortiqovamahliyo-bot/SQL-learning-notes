@@ -32,6 +32,6 @@ Conditions are written using operators below:
 >= --> if it is more than or equal to
 BETWEEN ... AND ... --> if it is between them(column_name BETWEEN num 1 AND num 2 )
 NOT BETWEEN ... AND ... --> if it is not between them
-`IN()` checks whether a value exists in a list.
+IN() --> checks whether a value exists in a list.
 
 
