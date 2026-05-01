@@ -33,6 +33,28 @@ SELECT *
 FROM users
 WHERE name NOT IN ('Ali', 'Vali');
 ```
+# Filtering and sorting
+The data can be filtered by using "Distinct", which removes duplicates:
+```sql
+SELECT director FROM movies;
+```
+```natija
+Ali
+Vali
+Ali
+Sami
+```
+```sql
+SELECT DISTINCT director
+FROM movies;
+```
+```natija
+Ali
+Vali
+Sami
+```
+
+
 
 
 
