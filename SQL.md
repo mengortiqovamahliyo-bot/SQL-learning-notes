@@ -53,6 +53,39 @@ Ali
 Vali
 Sami
 ```
+###Sorting
+To sort the database alphabetically, we use:
+```
+SELECT title
+FROM movies
+ORDER BY column_name asc
+```
+To reverse it:
+```
+SELECT title
+FROM movies
+ORDER BY column_name DESC
+```
+### limit and offset
+```
+| id | name  |
+| -- | ----- |
+| 1  | Ali   |
+| 2  | Vali  |
+| 3  | Sami  |
+| 4  | Olim  |
+| 5  | Zafar |
+```
+```
+SELECT * FROM users
+LIMIT 2 OFFSET 2;
+```
+```
+Sami
+Olim
+```
+
+
 
 
 
