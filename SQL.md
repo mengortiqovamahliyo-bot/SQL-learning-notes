@@ -84,6 +84,45 @@ LIMIT 2 OFFSET 2;
 Sami
 Olim
 ```
+# Joining two tables
+In real projects you have to work several databases and you have join them together. To do this you will use join.
+Users 
+```
+| id | name |          
+| -- | ---- |
+| 1  | Ali  |
+| 2  | Vali |
+```
+Orders
+```
+| id | user_id | product |
+| -- | ------- | ------- |
+| 1  | 1       | Phone   |
+| 2  | 2       | Laptop  |
+```
+
+
+```sql
+select name, product
+from users
+join orders
+    on users.id = orders.user_id
+```
+# Outer Joins
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
